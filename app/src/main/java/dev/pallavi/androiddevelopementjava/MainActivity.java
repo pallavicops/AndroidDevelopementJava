@@ -1,12 +1,10 @@
 package dev.pallavi.androiddevelopementjava;
-
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button but_Add, but_Sub, but_Mul, but_Div;
     EditText txt_Num1, txt_Num2;
@@ -43,6 +41,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         else
             Res=0;
         txt_Res.setText(String.valueOf(Res));
-
     }
 }
